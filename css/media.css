@@ -1,0 +1,203 @@
+@media (max-width: 767px)
+{
+   .navbar-brand img {
+    margin-top: 0;}
+
+    .backdround .text p {
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    font-size: 30px;}
+    .backdround .Text-quoted p {
+    position: absolute;
+    top: 420px;
+    left: 55px;
+    font-size: 18px;}
+    .backdround .image img {
+    position: absolute;
+    top: 425px;
+    left: 35px;
+     max-width: 18px;}
+     .backdround .learn_more p {
+    position: absolute;
+    left: 40px;}
+    .backdround .glyphicon {
+    position: absolute;
+    left: 70px;}
+    .PARTNERS h2 {
+        margin-left: 0;}
+    .PARTNERS img {
+    width: 33.333%;
+   margin-right: 60px;}
+    
+    .PARTNERS .the_same img {
+    padding-top: 15px;}
+   .PARTNERS .same img {
+    margin-top: 10px;}
+    .why_youfoodz .buttons a {
+    margin-top: 20px;
+    margin-bottom: 30px;}
+    .QUICK_STATS .N1 {margin-left: 0;margin-top: 20px;}
+
+    .MEALSandSNACKSandDRINKS .group .photo img {
+    width: 100%;}
+    .MEALSandSNACKSandDRINKS .group .text-group {
+     width: 100%;
+    margin-top: 10px; }
+    .MEALSandSNACKSandDRINKS .group .photo1 img{width: 100%;}
+    .brand-promotion .brand-width {
+    margin-top: 50px;}
+    .brand-promotion .brand-elements .brand-image img {
+    width: 100%;}
+    .brand-promotion .brand-elements .brand-group .brand-header {
+    margin-right: 0;}
+ .brand-promotion .brand-elements .brand-group {
+    margin-top: 20px;}
+    .brand-promotion .brand-elements .brand-group .brand-quation {
+    margin: 0 auto 20px;
+    text-align: center;
+    padding-right: 0;
+     }
+    .brand-promotion .brand-elements .brand-group {
+        width: 100%;}
+    .brand-promotion .brand-elements .brand-group .brand-text {text-align: center;}
+    .brand-promotion .brand-elements .brand-group .brand-button .btn {margin-right: 0;}
+    .backdround1 .opecity .backdround1-group .backdround1-quote {
+    font-size: 22px;
+     padding: 0; 
+    padding-bottom: 30px;
+    line-height: 1.50;}
+      .backdround1 .opecity .backdround1-group .backdround1-text {
+    margin-bottom: 40px;}
+    .try_now .try_now-image img {
+    width: 100%;
+    padding-top: 50px;}
+    .try_now .try_now-button .btn {
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 30px;}
+
+     .nav>li {
+    text-align: center;
+    margin-left: 70px;}
+    .navbar-nav #only:after{
+    content: '';
+    width: 180px;
+    height: 1px;
+    background-color: #d3dcdf;
+    display: block;
+    vertical-align: middle;
+    margin-top: 20px;}
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;}
+
+
+}
+
+/* Small Screen */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-default .navbar-nav > li > a {
+    margin-top: -30px;
+    margin-right: -10px;}
+    .navbar-nav #btn {
+    margin-top: -30px;
+    margin-left: 20px;}
+    .navbar-brand img {
+    margin-left: -20px;}
+    .try_now .try_now-button {
+    margin-left: 35%;
+    margin-bottom: 20px;}
+    .brand-promotion .brand-elements .brand-image img {width: 40%;}
+    .MEALSandSNACKSandDRINKS .group .text-group .buttons{margin-bottom: 20px}
+    .brand-promotion .brand-elements .brand-group .brand-header img {
+    margin-top: 30px;}
+    .QUICK_STATS .img img {display: none;}
+    .QUICK_STATS .N1 {margin-top: 20px;}
+    .why_youfoodz .img img{display: none;}
+     .why_youfoodz .buttons  {width: 95%}
+     .PARTNERS img {
+    margin-right: 60px;
+}
+
+
+
+
+}
+
+   
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width: 1199px)
+{
+   
+    
+
+    .try_now .try_now-button {
+    margin-left: 35%;
+    margin-bottom: 20px;}
+    .brand-image img {width: 35%;}
+    .MEALSandSNACKSandDRINKS .group .text-group .buttons{margin-bottom: 20px}
+    .brand-promotion .brand-elements .brand-group .brand-header img {
+    margin-top: 30px;}
+    .QUICK_STATS .img img {display: none;}
+    .QUICK_STATS .N1 {margin-top: 20px;}
+     .why_youfoodz .buttons {
+    width: 50%;
+    margin-left: 300px;
+}
+
+}
+
+/* Large Screen */
+
+@media (min-width:1200px)
+{
+     .MEALSandSNACKSandDRINKS .group .photo img {
+    width: 60%;}
+    .MEALSandSNACKSandDRINKS .group .text-group {
+     width: 40%;margin-top: 170px;}
+    .MEALSandSNACKSandDRINKS .group .photo1 img{width: 60%;}
+
+    .brand-promotion .brand-elements .brand-image img {
+    width: 60%;}
+     .brand-promotion .brand-width {
+    margin: 0 auto;}
+   .brand-promotion .brand-elements .brand-group .brand-header{margin-right: 140px}
+ .brand-promotion .brand-elements .brand-group {
+    margin-top: 200px;}
+    .brand-promotion .brand-elements .brand-group .brand-quation {
+     margin: 0 auto 30px;
+    text-align: left;
+    padding-right: 80px;
+     }
+    .brand-promotion .brand-elements .brand-group {
+        width: 40%;}
+    .brand-promotion .brand-elements .brand-group .brand-text {text-align: left;}
+    .brand-promotion .brand-elements .brand-group .brand-button .btn {margin-right: 120px;}
+     .try_now .try_now-button .btn {
+   margin-top: 150px;
+    margin-left: 0;
+    margin-bottom: 0;}
+    .nav>li {
+    text-align: none;
+    margin-left: 0;}
+    .navbar-nav #only:after{
+    content: '';
+    width: 1px;
+    height: 18px;
+    background-color: #d3dcdf;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    }
+    .PARTNERS img{max-width: 50px;float: right; margin-right: 100px;
+    margin-top: 40px;}
+        
+.PARTNERS .the_same img{margin-top: 15px;}
+.brand-promotion .brand-elements .brand-image img{float: left;display: inline-block;height: 500px}
+
+   
+  
+}
