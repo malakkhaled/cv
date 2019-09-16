@@ -1,0 +1,381 @@
+*{box-sizing: border-box;}
+
+/*start section navbar*/
+body{background-size: cover;overflow-x: hidden;}
+
+.navbar-default {
+     background-color: #fff;
+     border-color: #fff;z-index: 99999;
+     position: fixed;}
+ .navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #8fc03e;
+}
+
+.navbar-brand img {
+    vertical-align: middle;
+    display:inline-block;
+    max-width: 80%;
+    width: 246px;
+    margin-top: 20px;}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 40px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #252829;
+    font-size: 13px;
+    margin-top: 24px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+margin-right: 20px}
+
+.navbar-nav #btn{background-color: #8fc03e;
+    color: #fff;
+    letter-spacing: 0;
+    border-radius: 51px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 7.5px 20px;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-top: 28px;}
+ /*end section navbar*/
+
+ /*start section backdround*/
+.backdround .backdround-image img{height: 750px;background-size: cover;width: 100%}
+.backdround .text p{
+    margin: 0 0 10px;
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 45px;}
+.backdround .image img{
+	 position: absolute;
+       top: 497px;
+    left: 95px;
+    max-width: 20px;
+    display: inline-block;}
+.backdround .Text-quoted p{	 
+	position: absolute;
+      top: 490px;
+    left: 120px;
+    display: inline-block;
+    color: #d3dcdf;
+    font-size: 22px}
+.backdround .learn_more p{position: absolute;
+    top: 600px;
+    left: 95px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 550;}
+
+.backdround .glyphicon{position: absolute;
+    top: 650px;
+    left: 125px;
+    display: inline-block;
+    color: #8fc03e;
+    font-size: 16px;
+    font-weight: 550;}
+.backdround .glyphicon:hover{font-size: 20px;-webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;margin-top: 10px}
+
+/*end section backdround*/
+
+ /*start section PARTNERS*/
+.PARTNERS{max-width: 850px;}
+
+.PARTNERS h2{font-size: 14px;letter-spacing: 2px;
+    color: #7b8689;
+    font-weight: 500; margin-top: 60px;margin-left: 75px;}
+    
+.PARTNERS img{max-width: 50px;float: right; margin-right: 100px;
+    margin-top: 40px;}
+        
+.PARTNERS .the_same img{margin-top: 15px;}
+
+
+
+ /*end section PARTNERS*/
+
+/*start section why_youfoodz*/
+ .why_youfoodz{background: #eff3f4;margin-top: 150px;margin-bottom: 100px;}
+
+ .why_youfoodz h2{font-size: 38px;
+ 	font-family: 500;
+    line-height: 1.53;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #252829;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    margin-top: 90px
+}
+ .header:after{content: '';
+    width: 75px;
+    height: 2px;
+    background-color: #80ad2f;
+    margin: 25px auto 60px;
+    display: block;}
+
+
+.why_youfoodz  div p:First-child  {font-size: 14px;font-weight: 600;letter-spacing: 2px;color: #252829;font-family: 'Playfair Display SC', serif; }
+.why_youfoodz p+div{font-size: 60px;color: #80ad2f;line-height: 1.5;font-family: 'Satisfy', cursive;}
+.why_youfoodz div+p{font-size: 28px;font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: 3px;
+font-family: 'Playfair Display SC', serif;}
+
+ .why_youfoodz .buttons a {display: inline-block;
+	border-radius: 50px;padding: 15px 60px;
+    margin-right: 30px;
+    margin-top:60px;cursor: pointer;line-height: 1.4;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+   }
+ .buttons .btn{background: #8fc03e;color: #fff;border: 1px solid transparent;}
+ .why_youfoodz .buttons .btn-nofill{background-color: #eff3f4;
+    color: #80ad2f;
+    border: 1px solid #80ad2f;padding: 15px 50px;}
+.why_youfoodz .img img{width: 400px;position: absolute;
+    right: 0;
+transform: translateY(-17.5px);}
+
+
+/*end section why_youfoodz*/
+
+/*start section QUICK_STATS*/
+
+.QUICK_STATS .header{font-size: 38px;line-height: 1.53;
+    letter-spacing: 4px;
+    color: #252829;
+font-family: 'Cinzel', serif;
+}
+
+.QUICK_STATS .N1{background: #eff3f4;border-radius: 1px;
+    padding: 24px;
+   margin-left: 20px;
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+     vertical-align: middle;
+    }
+
+.QUICK_STATS .N1 img{max-width: 70px}
+.QUICK_STATS .N1 .backdround-img{background: #fff;
+	border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    margin: 0 auto;
+    overflow: hidden}
+.QUICK_STATS .N1 .number{padding-top: 10px;
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.53;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #252829;font-family: 'Philosopher', sans-serif;}
+.QUICK_STATS .N1 .text1{    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: 2px;
+    color: #7b8689;
+    text-align: center;font-family: 'Cinzel', serif;}
+.QUICK_STATS .buttons a {display: inline-block;
+	border-radius: 50px;padding: 15px 60px;
+    margin-right: 30px;
+    margin-top:60px;cursor: pointer;line-height: 1.4;
+    font-size: 16px;
+    font-weight: 500;
+   }
+.QUICK_STATS .buttons .btn-nofill{background-color: #fff;
+    color: #80ad2f;
+    border: 1px solid #80ad2f;padding: 15px 50px;}
+.QUICK_STATS .img{}
+.QUICK_STATS .img img{width: 250px;position: absolute;
+    left: 0;
+    top: 2300px;}
+.QUICK_STATS hr {
+    margin-top: 100px;
+    border-top: 1px solid #ccc;
+}
+
+/*end section QUICK_STATS*/
+
+
+
+/*start section OUR_RANGE*/
+.MEALSandSNACKSandDRINKS .header{font-size: 38px;
+margin-top: 100px;font-family: 'Playfair Display SC', serif;font-weight: 500;
+    line-height: 1.53;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #252829;}
+.MEALSandSNACKSandDRINKS .group .photo img{width: 60%;
+    float: right;margin-top: 50px;display: inline-block;}
+.MEALSandSNACKSandDRINKS .group .photo1 img{width: 60%;
+    float: left;margin-top: 50px;display: inline-block;}
+.MEALSandSNACKSandDRINKS .group .text-group{display: inline-block;width: 40%;}
+.MEALSandSNACKSandDRINKS .group .text-group #text-header:after{content: ''; width: 75px;
+    height: 2px;
+    background-color: #80ad2f;
+    margin: 15px 0 20px;
+    display: block;}
+.MEALSandSNACKSandDRINKS .group .text-group #text-header .name{display: inline-block;
+    font-size: 28px;
+    margin-right: 70px;font-weight: 500;
+    letter-spacing: 7px;
+    color: #252829;font-family: 'Oswald', sans-serif;}
+
+.MEALSandSNACKSandDRINKS .group .text-group #text-header .number1{
+        justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #eff3f4;
+    padding: 8px 10px 10px 10px;}
+.MEALSandSNACKSandDRINKS .group .text-group #text-header span{font-size: 14px;
+    font-weight: 600;
+    line-height: 2.29;
+    letter-spacing: 2px;
+    color: #7b8689;
+     width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+font-family: 'Playfair Display SC', serif;}
+
+.MEALSandSNACKSandDRINKS .group .text-group .lead{line-height: 1.78;
+    color: #252829;
+    max-width: 370px;}
+.MEALSandSNACKSandDRINKS .group .text-group .buttons a {display: inline-block;
+	border-radius: 50px;
+	padding: 15px 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px}
+.MEALSandSNACKSandDRINKS .group .text-group .buttons .btn-nofill{background-color: #fff;
+    color: #80ad2f;
+    border: 1px solid #80ad2f;padding: 15px 50px;}
+
+
+/*end section OUR_RANGE*/
+
+
+/*start section brand-promotion*/
+.brand-promotion{background-color:#fcf7fa;}
+.brand-promotion .brand-width{width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;}
+
+.brand-promotion .brand-elements .brand-image img{float: left;display: inline-block;}
+.brand-promotion .brand-elements .brand-group{
+    display: inline-block;
+    }
+.brand-promotion .brand-elements .brand-group .brand-header img{width: 100%;max-width: 200px;
+	display: inline-block;margin-bottom: 30px;}
+
+.brand-promotion .brand-elements .brand-group .brand-quation{ font-size: 22px;
+    font-weight: 500;
+    line-height: 1.73;
+    letter-spacing: 2px;
+    color: #252829;
+    width: 370px;
+    max-width: 100%;}
+
+.brand-promotion .brand-elements .brand-group .brand-text{line-height: 1.78;
+    color: #252829;
+    width: 370px;
+    max-width: 100%;
+    margin: 0 auto 30px;font-size: 18px;
+    }
+.brand-promotion .brand-elements .brand-group .brand-button .btn{
+    color: #fff;
+    background-color: #df54ad;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 13px 20px;
+    min-width: 200px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 20px}
+/*end section brand-promotion*/
+
+
+/*start section background1*/
+.backdround1{background: url('../images/img21.jpg')no-repeat fixed center center;
+background-size: cover;
+width:100%;
+color: #fff}
+.backdround1 .opecity{background:rgba(1,1,1,0.6);}
+.backdround1 .opecity .backdround1-group{margin-top: 130px}
+.backdround1 .opecity .backdround1-group .backdround1-image{
+	background: #fff;
+    text-align: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;}
+.backdround1 .opecity .backdround1-group .backdround1-image img{ width: 40px;
+    height: 30px;}
+.backdround1 .opecity .backdround1-group .backdround1-quote{
+      font-size: 28px;
+    line-height: 1.21;
+    color: #ffffff;
+    padding: 0 15px;
+    padding-bottom: 30px;}
+.backdround1 .opecity .backdround1-group .backdround1-text{font-size: 14px;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #d3dcdf;}
+/*end section background1*/
+
+
+/*start section try_now*/
+.try_now{background-color: #252829;}
+.try_now .try_now-image img{max-width: 718px;display: inline-block;}
+.try_now .try_now-button { max-width: 225px;
+    display: inline-block;}
+.try_now .try_now-button .btn{color: #fff;
+    background-color: #8fc03e;display: inline-block;
+       border-radius: 50px;padding: 15px 60px;}
+
+/*end section try_now*/
+
+/*start section footer*/
+.footer{background: #fff;height: 110px}
+.footer .footer-text{text-align: center;
+    margin-top: 40px;
+  }
+.footer .footer-text span{  font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #7b8689;
+    margin-right: 15px;}
+.footer .footer-text a{font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #7b8689;
+    margin-right: 15px;}
+
+/*end section footer*/
